@@ -10,16 +10,33 @@ namespace Recetas_actividad_practica
     {
         //definir miembros de la calse
         // propiedades - atributos - datos
-
+        /*
         private string RecetaName;
         private int RecetaPrecio;
         private string Recetatipo;
         private string RecetaIngredientes;
+        */
 
-        public string recetaautor { get; set; }
+        public string Recetaname { get; set; }
+        public string Recetaprecio { get; set; }
+        public string Recetatipo { get; set; }
+        public string Recetaingredientes { get; set; }
+        public string Recetaautor { get; set; }
 
         //metodos de propiedad
 
+        //metodo constructor
+        /*
+        public Recetas(string recname, int recprecio, string rectipo, string recingredientes, string recautor)
+        {
+            RecetaName = recname;
+            RecetaPrecio = recprecio;
+            Recetatipo = rectipo;
+            RecetaIngredientes = recingredientes;
+            Recetaautor = recautor;
+        }
+        */
+        /*
         public void setRecetaName(string RName)
         {
             RecetaName = RName;
@@ -57,5 +74,6 @@ namespace Recetas_actividad_practica
         {
             return RecetaIngredientes;
         }
+        */
     }
 }
